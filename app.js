@@ -25,7 +25,6 @@ bot.onText(/\/help/, (msg) => {
   const chatId = msg.chat.id;
   const helpMessage = `
   Список доступных команд:
-  /help - возвращает список команд с их описанием
   /site - отправляет в чат ссылку на сайт октагона
   /creator - отправляет в чат мое ФИО
   `;
